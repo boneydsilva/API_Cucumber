@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-09T16:07:39 IST" name="Default suite" finished-at="2021-02-09T16:07:44 IST" duration-ms="4867">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:API.RunCucumberTest@67c33749]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-02-09T16:07:39 IST" name="Default test" finished-at="2021-02-09T16:07:44 IST" duration-ms="4867">
+      <class name="API.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:API.RunCucumberTest@67c33749]" started-at="2021-02-09T16:07:39 IST" name="setUpClass" finished-at="2021-02-09T16:07:39 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:API.RunCucumberTest@67c33749]" started-at="2021-02-09T16:07:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-09T16:07:44 IST" duration-ms="4380" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FIRST SCENARIO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test1]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="utilities.myAssertionException">
+            <message>
+              <![CDATA[error - 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[utilities.myAssertionException: error - 1
+]]>
+            </full-stacktrace>
+          </exception> <!-- utilities.myAssertionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:API.RunCucumberTest@67c33749]" started-at="2021-02-09T16:07:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-09T16:07:44 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Second Scenrio"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:API.RunCucumberTest@67c33749]" started-at="2021-02-09T16:07:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-09T16:07:44 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Third Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test3]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="utilities.myAssertionException">
+            <message>
+              <![CDATA[error - 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[utilities.myAssertionException: error - 2
+]]>
+            </full-stacktrace>
+          </exception> <!-- utilities.myAssertionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:API.RunCucumberTest@67c33749]" started-at="2021-02-09T16:07:44 IST" name="tearDownClass" finished-at="2021-02-09T16:07:44 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- API.RunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

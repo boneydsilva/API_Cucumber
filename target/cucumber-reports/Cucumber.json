@@ -1,0 +1,364 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T10:37:39.937Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2548900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "FIRST SCENARIO",
+        "description": "",
+        "id": "test1;first-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271644500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get the list of users for page \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 31
+                }
+              ],
+              "location": "API.StepDefinitions.get_the_list_of_users_for_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2056014000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 15
+                }
+              ],
+              "location": "API.StepDefinitions.status_code_is(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "utilities.myAssertionException: error - 1\r\n",
+              "duration": 881123200,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify if there are only 7 responses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 25
+                }
+              ],
+              "location": "API.StepDefinitions.verify_if_there_are_only_responses(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify if page is \"1\" as speciifed earlier",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "API.StepDefinitions.verify_if_page_is_as_speciifed_earlier(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify the response schema to code \"ListUsers1.1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ListUsers1.1\"",
+                  "offset": 35
+                }
+              ],
+              "location": "API.StepDefinitions.verify_the_response_schema_to_code(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sampleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test1",
+    "description": "  First API TESTS",
+    "id": "test1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/API/API_TEST.feature",
+    "tags": [
+      {
+        "name": "@sampleTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T10:37:44.203Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Second Scenrio",
+        "description": "",
+        "id": "test2;second-scenrio",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Second Api Tests 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 17
+                }
+              ],
+              "location": "API.StepDefinitions.second_api_tests(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Second Api Tests 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "API.StepDefinitions.second_api_tests(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Second Api Tests 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 17
+                }
+              ],
+              "location": "API.StepDefinitions.second_api_tests(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sampleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test2",
+    "description": "  Second API TESTS",
+    "id": "test2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/API/API_TEST2.feature",
+    "tags": [
+      {
+        "name": "@sampleTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T10:37:44.223Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Third Scenario",
+        "description": "",
+        "id": "test3;third-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.Listeners.BDDHooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "utilities.myAssertionException: error - 2\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Third Api Tests 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "API.StepDefinitions.third_api_tests(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Third Api Tests 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 16
+                }
+              ],
+              "location": "API.StepDefinitions.third_api_tests(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Third Api Tests 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "API.StepDefinitions.third_api_tests(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sampleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test3",
+    "description": "  Third API TESTS",
+    "id": "test3",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/API/API_TEST3.feature",
+    "tags": [
+      {
+        "name": "@sampleTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
